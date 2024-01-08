@@ -1,51 +1,13 @@
 @import url("./default.css");
+@import url("./headerfooter.css");
 
-.header {
-  padding: 15px;
-}
 
-.upper_header {
-  justify-content: space-between;
-}
-.upper_header img {
-  width: 15%;
-}
-
-.upper_header .img2 {
-  width: 20%;
-}
-
-.upper_header button {
-  border: none;
-  font-size: 1.5rem;
-  background: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  align-self: flex-start;
-}
-
-.bottom_header {
-  justify-content: space-between;
-  padding: 0 10px;
-}
-.links {
-  display: flex;
-  gap: 2rem;
-}
-.links a {
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-family: inter;
-}
 .home_container {
-  height: 400px;
-  width: 100vw;
+   padding: 20px 0;
   background-image: url("../images/Rectangle\ 46.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   gap: 3rem;
 }
 
