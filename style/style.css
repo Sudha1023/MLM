@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.upper_header img{
+    width: 15%;
+
+}
+.header{
+    padding: 15px;
+}
+.upper_header .img2{
+    width: 20%;
+}
+.upper_header button{
+    border: none;
+    font-size: 1.5rem;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-self: flex-start;
+}
+.bottom_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+
+}
+.links a{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.home_container{
+    height: 400px;
+    width: 100vw;
+    background-image: url("../images/Rectangle\ 46.png");
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+}
+.octagon{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: #FFECD6E5;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.octagon img{
+    width: 70%;
+}
+.octagon p{
+    font-size: 2rem;
+    width: 70%;
+}
+
