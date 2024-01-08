@@ -1,13 +1,11 @@
-@import url("./default.css");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Italianno&family=Poppins:wght@400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 
 .flex {
   display: flex;
@@ -24,7 +22,7 @@
   justify-content: center;
 }
 
-.fwrap{
+.fwrap {
   flex-wrap: wrap;
 }
 
@@ -32,8 +30,8 @@
   flex-direction: column;
 }
 
-.gap{
-  gap:.5rem;
+.gap {
+  gap: 0.5rem;
 }
 
 .fixed {
@@ -51,6 +49,7 @@ img {
   display: block;
 }
 
-body{
-  background-color: var(--mainColor);
+button {
+  cursor: pointer;
+  outline: none;
 }
