@@ -1,0 +1,136 @@
+.header {
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.upper_header {
+  justify-content: space-between;
+}
+.upper_header img {
+  width: 15%;
+}
+
+.upper_header .img2 {
+  width: 20%;
+}
+
+.upper_header button {
+  border: none;
+  font-size: 1.5rem;
+  background: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.bottom_header {
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.links {
+  display: flex;
+  gap: 2rem;
+}
+.links a {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: inter;
+}
+
+.ham {
+  display: none;
+}
+
+/* footer code start here */
+
+.footer_bg {
+  background: #dedcda;
+}
+
+.footer {
+  padding: 30px 20px;
+  gap: 3rem;
+}
+
+.footer_left {
+  flex: 0.7;
+}
+
+.footer_left p,
+.footer_right h2 {
+  font-family: "Imprima";
+}
+
+.footer_left img {
+  width: 43%;
+  padding-bottom: 20px;
+}
+
+.footer_right {
+  flex: 0.3;
+}
+
+.footer_right .share_icons {
+  gap: 1.5rem;
+  padding: 15px 0;
+}
+
+.footer_right .share_icons img {
+  width: 7%;
+}
+
+.footer_right .share_icons img:nth-child(1) {
+  width: 4%;
+}
+
+.footer_right .footer_links h2 {
+  padding: 4px 0;
+  font-size: 1.2rem;
+  font-family: Imprima;
+  font-weight: 400;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  /* header section  */
+
+  .ham {
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .bottom_header {
+    position: absolute;
+    height: 100dvh;
+    padding: 20px 30px;
+    background: white;
+    top: 0;
+    bottom: 0;
+    right: -183px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+    text-align: right;
+    gap: 2rem;
+  }
+
+  .bottom_header .links {
+    flex-direction: column;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer_right {
+    flex: 1;
+    width: 100%;
+  }
+}
