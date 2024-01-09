@@ -3,48 +3,161 @@
 
 
 .home_container {
-   padding: 20px 0;
-  background-image: url("../images/Rectangle\ 46.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  gap: 3rem;
+    padding: 20px 0;
+    background-image: url("../images/Rectangle\ 46.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 4rem;
 }
 
 .octagon {
-  clip-path: polygon(
-    30% 0%,
-    70% 0%,
-    100% 30%,
-    100% 70%,
-    70% 100%,
-    30% 100%,
-    0% 70%,
-    0% 30%
-  );
-  background-color: #ffecd6e5;
-  height: 300px;
-  width: 300px;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 5px;
+    clip-path: polygon(30% 0%,
+            70% 0%,
+            100% 30%,
+            100% 70%,
+            70% 100%,
+            30% 100%,
+            0% 70%,
+            0% 30%);
+    background-color: #ffecd6e5;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
 }
 
 .octagon img {
-  width: 48%;
+    width: 48%;
 }
 
 .octagon .octagon_3rdimg {
-  width: 60%;
-  padding: 13px 0;
+    width: 60%;
+    padding: 13px 0;
 }
 
 .octagon p {
-  font-size: 1.5rem;
-  text-align: center;
-  color: #444444e5;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #444444e5;
 }
+
 .octagon p span {
-  font-weight: 700;
-  font-size: 1.8rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+/* popular_products */
+
+.popular_products {
+    padding: 20px 10px;
+    background-color: #BCE9D4;
+}
+
+.popular_products h2 {
+    text-align: center;
+    padding: 10px 0;
+    font-family: Italianno;
+    font-size: 96px;
+    text-shadow: 5px 4px 0px #00000040;
+
+}
+
+.popular_products_2ndinnerdiv img {
+    width: 50%;
+
+}
+
+.popular_products_innerdiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 709px;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.popular_content p {
+    font-family: Italianno;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+.popular_content h2{
+    font-family: Italianno;
+    text-decoration: underline;
+    line-height: 120px;
+}
+.joinus_section{
+    padding: 20px ;
+    background-image: url("../images/Rectangle\ 66.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 4rem;
+    height: 600px;
+    color: white;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+}
+.joinus_section h2{
+    text-align: right;
+    width: 50%;
+    margin-left: auto;
+    font-size: 3rem;
+    opacity: .8;
+}
+.joinus_content button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #BCE9D4;
+    font-size: 1.2rem;
+}
+.joinus_content{
+    width: 40%;
+}
+.joinus_content p{
+    font-size: 2.5rem;
+    opacity: .8;
+}
+.claim_rewards_section{
+    padding: 20px ;
+    background-image: url("../images/achievers\ image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 4rem;
+    height: 600px;
+    color: white;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+}
+.claim_rewards_section button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #BCE9D4;
+    font-size: 2rem;
+    width: max-content;
+    margin-left: auto;
+    border: none;
+}
+.cards_testimonialdiv{
+    width: 320px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.testimonial_cards_section{
+    background:  #99BFFC7D;
+}
+.cards_testimonialdiv img{
+    width: 50%;
+    
 }
