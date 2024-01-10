@@ -93,7 +93,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   gap: 4rem;
   color: white;
   display: flex;
@@ -123,7 +122,7 @@
 }
 .claim_rewards_section {
   padding: 20px;
-  background-image: url("../images/achievers\ image.png");
+  background-image: url("../images/achievers\ img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -161,6 +160,8 @@
   padding: 30px 0;
   padding-top: 100px;
   gap: 3rem;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .cards_testimonialdiv {
@@ -214,4 +215,43 @@
   .joinus_section h2 {
     width: 80%;
   }
+}
+.batchimg{
+  position: relative;
+
+}
+.batchstar{
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 50%;
+  transform: translate(50% 50%);
+}
+.innerbatchdiv p{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+.achiever_section{
+  padding: 20px 10px;
+  background-color: #bce9d4;
+}
+.achiever_section h2{
+  text-align: center;
+  font-size: 2rem;
+
+}
+.achiever_batch{
+  padding: 30px 0;
+  gap: 2rem;
+
+}
+.innerbatchdiv1{
+  width: 280px;
+}
+.innerbatchdiv1 p{
+  font-size: 2rem;
+  padding: 10px 0;
+  text-align: center;
+
 }
