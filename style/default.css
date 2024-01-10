@@ -37,6 +37,10 @@
   gap: 0.5rem;
 }
 
+.gap1{
+  gap: 1.5rem;
+}
+
 .fixed {
   max-width: 1200px;
   margin: 0 auto;
@@ -45,6 +49,10 @@
 a {
   color: black;
   text-decoration: none;
+}
+
+a:hover h2 {
+text-decoration: underline;
 }
 
 img {
