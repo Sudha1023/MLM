@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Italianno&family=Poppins:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Italianno&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
 
-
-  * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,7 +36,7 @@
   gap: 0.5rem;
 }
 
-.gap1{
+.gap1 {
   gap: 1.5rem;
 }
 
@@ -52,7 +51,7 @@ a {
 }
 
 a:hover h2 {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 img {
@@ -60,7 +59,34 @@ img {
   display: block;
 }
 
-button{
+button {
   cursor: pointer;
-outline: none;
+  outline: none;
+}
+
+.scrollup {
+  border-radius: 50%;
+  padding: 5px;
+  background: white;
+  border: 2px solid black;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 3;
+}
+
+.scrollup:active {
+  transform: scale(0.8);
+}
+
+.scrollup span {
+  font-size: 2.3rem;
+  color: black;
+}
+
+.scaledown:active{
+  transform: scale(0.8);
+
 }
