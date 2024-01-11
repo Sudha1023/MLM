@@ -189,7 +189,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.testimonial_rating i{
+.testimonial_rating i {
   color: #ffc978;
   font-size: 1.3rem;
 }
@@ -203,7 +203,122 @@
   font-size: 2rem;
 }
 
+/* code for batch */
+
+.achiever_section {
+  padding: 20px 10px;
+  background-color: #bce9d4;
+}
+
+.achiever_section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: Italiana;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.achiever_batch {
+  padding: 30px 0;
+  gap: 2rem;
+}
+
+.batchimg {
+  position: relative;
+}
+
+.batchstar {
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.batchstar i{
+  color: #ffc978;
+  font-size: 1.3rem;
+}
+
+.innerbatchdiv p {
+  text-align: center;
+  font-size: 3rem;
+  font-family: MonteCarlo;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.achiever_section1 {
+  padding: 20px 10px;
+  background-color: #bce9d4;
+  position: relative;
+  z-index: 1;
+}
+
+.bgblue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #abd5e8;
+  z-index: -1;
+}
+
+.achiever_section1 h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: Italiana;
+  font-weight: 400;
+  font-family: Italiana;
+
+  letter-spacing: 0.05em;
+  font-family: Italiana;
+}
+
+.achiever_batch1 {
+  padding: 30px 0;
+  gap: 2rem;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.innerbatchdiv1 {
+  width: 280px;
+}
+.innerbatchdiv1 p {
+  font-size: 2rem;
+  padding: 10px 0;
+  text-align: center;
+  font-family: Montaga;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.innerbatchimgdiv {
+  height: 340px;
+  width: 100%;
+}
+
+.innerbatchimgdiv img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
+
+  .popular_products h2 {
+ font-size: 3.3rem;
+  }
+
+  .popular_products_2ndinnerdiv img {
+    width: 35%;
+}
+
+
+  
   .popular_products_innerdiv {
     grid-template-columns: 1fr;
     width: auto;
@@ -215,43 +330,18 @@
   .joinus_section h2 {
     width: 80%;
   }
-}
-.batchimg{
-  position: relative;
 
+  .bgblue {
+    display: none;
+  }
 }
-.batchstar{
-  position: absolute;
-  z-index: 1;
-  top: 30%;
-  left: 50%;
-  transform: translate(50% 50%);
-}
-.innerbatchdiv p{
-  text-align: center;
-  font-size: 1.5rem;
 
-}
-.achiever_section{
-  padding: 20px 10px;
-  background-color: #bce9d4;
-}
-.achiever_section h2{
-  text-align: center;
-  font-size: 2rem;
 
-}
-.achiever_batch{
-  padding: 30px 0;
-  gap: 2rem;
-
-}
-.innerbatchdiv1{
-  width: 280px;
-}
-.innerbatchdiv1 p{
-  font-size: 2rem;
-  padding: 10px 0;
-  text-align: center;
-
+@media screen and (max-width: 468px) {
+  .joinus_content {
+    width: 100%;
+  }
+  .joinus_section h2 {
+    width: 100%;
+  }
 }
