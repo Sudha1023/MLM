@@ -2,7 +2,7 @@
 @import url("./headerfooter.css");
 
 .home_container {
-  padding: 20px 0;
+  padding: 50px 0;
   background-image: url("../images/Rectangle\ 46.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,22 +12,21 @@
 }
 
 .octagon {
-  clip-path: polygon(
-    30% 0%,
-    70% 0%,
-    100% 30%,
-    100% 70%,
-    70% 100%,
-    30% 100%,
-    0% 70%,
-    0% 30%
-  );
+  clip-path: polygon(30% 0%,
+      70% 0%,
+      100% 30%,
+      100% 70%,
+      70% 100%,
+      30% 100%,
+      0% 70%,
+      0% 30%);
   background-color: #ffecd6e5;
   height: 300px;
   width: 300px;
   flex-direction: column;
   justify-content: flex-start;
   padding: 5px;
+  transform: rotate(320deg);
 }
 
 .octagon img {
@@ -66,13 +65,24 @@
 }
 
 .popular_products_2ndinnerdiv img {
-  width: 50%;
+  width: 300px;
+}
+
+.popular_products_2ndinnerdiv h2 {
+
+  font-family: Inria Serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+ 
+  
+
 }
 
 .popular_products_innerdiv {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 709px;
+  grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+  /* width: 709px; */
   gap: 2rem;
   margin: 0 auto;
 }
@@ -82,11 +92,13 @@
   font-size: 40px;
   text-align: center;
 }
+
 .popular_content h2 {
   font-family: Italianno;
   text-decoration: underline;
   line-height: 120px;
 }
+
 .joinus_section {
   padding: 40px 20px;
   background-image: url("../images/Rectangle\ 66.png");
@@ -99,6 +111,7 @@
   justify-content: space-between;
   flex-direction: column;
 }
+
 .joinus_section h2 {
   text-align: right;
   width: 50%;
@@ -106,6 +119,7 @@
   font-size: 3rem;
   opacity: 0.8;
 }
+
 .joinus_content button {
   padding: 10px 20px;
   border-radius: 5px;
@@ -113,13 +127,16 @@
   font-size: 1.2rem;
   border: none;
 }
+
 .joinus_content {
   width: 40%;
 }
+
 .joinus_content p {
   font-size: 2.5rem;
   opacity: 0.8;
 }
+
 .claim_rewards_section {
   padding: 20px;
   background-image: url("../images/achievers\ img.png");
@@ -133,6 +150,7 @@
   justify-content: space-between;
   flex-direction: column;
 }
+
 .claim_rewards_section button {
   padding: 10px 40px;
   border-radius: 20px;
@@ -142,6 +160,7 @@
   margin-left: auto;
   border: none;
 }
+
 /* testimonial section */
 
 .testimonial_cards_section {
@@ -177,6 +196,7 @@
 .testimonial_cards_section {
   background: #99bffc7d;
 }
+
 .cards_testimonialdiv .card_img {
   width: 50%;
   position: absolute;
@@ -235,7 +255,7 @@
   transform: translate(-50%, -50%);
 }
 
-.batchstar i{
+.batchstar i {
   color: #ffc978;
   font-size: 1.3rem;
 }
@@ -286,6 +306,7 @@
 .innerbatchdiv1 {
   width: 280px;
 }
+
 .innerbatchdiv1 p {
   font-size: 2rem;
   padding: 10px 0;
@@ -310,23 +331,24 @@
 @media screen and (max-width: 768px) {
 
   .popular_products h2 {
- font-size: 3.3rem;
+    font-size: 3.3rem;
   }
 
   .popular_products_2ndinnerdiv img {
-    width: 35%;
-}
+    /* width: 35%; */
+  }
 
 
-  
+
   .popular_products_innerdiv {
-    grid-template-columns: 1fr;
+
     width: auto;
   }
 
   .joinus_content {
     width: 80%;
   }
+
   .joinus_section h2 {
     width: 80%;
   }
@@ -341,6 +363,7 @@
   .joinus_content {
     width: 100%;
   }
+
   .joinus_section h2 {
     width: 100%;
   }
