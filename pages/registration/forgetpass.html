@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forget Password</title>
+    <link rel="stylesheet" href="./registrarion.css" />
+  </head>
+  <body>
+    <div class="form_container flex_center_centerAll fwrap">
+      <div class="left">
+        <div class="form">
+          <div class="form_header flex_center forget">
+            <div>
+              <h2>How would you like to reset your password?</h2>
+              <div class="radiodiv flex flex_col">
+                <div>
+                  <input type="radio" name="forget" id="sendEmail" />
+                  <label for="sendEmail">Email</label>
+                </div>
+                <div>
+                  <input type="radio" name="forget" id="sendtext" />
+                  <label for="sendtext">Text Message (SMS)</label>
+                </div>
+              </div>
+            </div>
+            <div class="flex_center gap icon">
+              <img class="scaledown" src="../../images/facebook 1.png" alt="" />
+              <img class="scaledown" src="../../images/twit.png" alt="" />
+            </div>
+          </div>
+          <form action="#">
+            <p class="ptag">
+              We will text you a verification code to reset your password.
+              Message and data rates may apply.
+            </p>
+            <div class="form_input flex flex_col">
+              <input type="password" placeholder="Password" />
+            </div>
+            <button class="submitbtn">Send OTP</button>
+            <p class="nam">Do you have an account?</p>
+            <button class="submitbtn flex_center_centerAll gap">
+              <a href="./signup.html"> Signup </a>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="right">
+        <img src="../../images/logo.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
