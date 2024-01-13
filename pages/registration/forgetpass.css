@@ -1,0 +1,43 @@
+.form_header h2 {
+  font-size: 1.2rem;
+}
+.ptag {
+  font-size: 0.8rem;
+  color: #00000080;
+}
+
+.radiodiv input {
+  accent-color: black;
+  width: 1rem;
+  height: 1rem;
+}
+
+.phonecodeinput {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: linear-gradient(
+    90deg,
+    rgba(153, 191, 252, 0.4459) 22.56%,
+    rgba(188, 231, 208, 0.6279) 82.48%
+  );
+}
+.phonecodeinput select {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-right: 2px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.phonecodeinput input {
+  background: transparent;
+}
+
+.phonecode img {
+  width: 400px;
+}
+
+.radiodiv label {
+  cursor: pointer;
+}

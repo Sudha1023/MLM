@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forget Password</title>
     <link rel="stylesheet" href="./registrarion.css" />
+    <link rel="stylesheet" href="./forgetpass.css" />
   </head>
   <body>
     <div class="form_container flex_center_centerAll fwrap">
-      <div class="left">
+      <div class="left fixed">
         <div class="logo">
-          <img src="../../images/forgetfirst.png" alt="">
-      </div>
+          <img class="logoimg" src="../../images/forgetfirst.png" alt="" />
+        </div>
         <div class="form">
           <div class="form_header flex_center forget">
             <div>
               <h2>How would you like to reset your password?</h2>
               <div class="radiodiv flex flex_col">
-                <div>
+                <div class="flex_center gap mail">
                   <input type="radio" name="forget" id="sendEmail" />
                   <label for="sendEmail">Email</label>
                 </div>
-                <div>
-                  <input type="radio" name="forget" id="sendtext" />
+                <div class="flex_center gap text">
+                  <input type="radio" name="forget" id="sendtext" checked />
                   <label for="sendtext">Text Message (SMS)</label>
                 </div>
               </div>
@@ -32,18 +33,23 @@
               <img class="scaledown" src="../../images/twit.png" alt="" />
             </div>
           </div>
-          <form action="#">
+          <form>
             <p class="ptag">
               We will text you a verification code to reset your password.
               Message and data rates may apply.
             </p>
-            <div class="form_input flex flex_col">
-              <input type="password" placeholder="Password" />
+            <div class="form_input flex forgotpassfotm_input">
+              <div class="phonecodeinput flex">
+                <select name="phonecode" id="">
+                  <option value="+91">+91</option>
+                  <option value="+92">+92</option>
+                </select>
+                <input type="number" placeholder="123456789" />
+              </div>
             </div>
             <button class="submitbtn">
-              <a href="./verification.html">
-                Send OTP</button>
-              </a>
+              <a href="./verification.html"> Send OTP </a>
+            </button>
             <p class="nam">Do you have an account?</p>
             <button class="submitbtn flex_center_centerAll gap">
               <a href="./signup.html"> Signup </a>
@@ -55,5 +61,25 @@
         <img src="../../images/logo.png" alt="" />
       </div>
     </div>
+    <script>
+      const inputcontainer = document.querySelector(".forgotpassfotm_input");
+      const mailinput = document.querySelector(".mail");
+      const textinput = document.querySelector(".text");
+      mailinput.addEventListener("click", () => {
+        inputcontainer.innerHTML = ` <div class="phonecodeinput flex">
+                <input type="email" placeholder="Enter your email" />
+              </div>`;
+      });
+
+      textinput.addEventListener("click", () => {
+        inputcontainer.innerHTML = `<div class="phonecodeinput flex">
+                <select name="phonecode" id="">
+                  <option value="+91">+91</option>
+                  <option value="+92">+92</option>
+                </select>
+                <input type="number" placeholder="123456789" />
+              </div>`;
+      });
+    </script>
   </body>
 </html>

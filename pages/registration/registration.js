@@ -6,7 +6,7 @@ adminlogin.addEventListener("click", () => {
     <div class="form_header flex_center">
         <h2>Admin Login</h2>
     </div>
-    <form action="#">
+    <form >
         <div class="form_input flex flex_col">
             <label for="emailphone">
                 Admin ID
@@ -40,7 +40,9 @@ adminlogin.addEventListener("click", () => {
                 </span>
             </div>
         </div>
-            <p>Forget Password?</p>
+        <a href="./forgetpass.html">
+        <p>Forget Password?</p>
+    </a>
         </div>
         
         <div class="login_btn flex_center ">
