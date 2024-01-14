@@ -6,11 +6,11 @@
   justify-content: space-between;
 }
 .upper_header img {
-  width: 15%;
+  width: 220px;
 }
 
 .upper_header .img2 {
-  width: 20%;
+  width: 300px;
 }
 
 .upper_header button {
@@ -141,7 +141,7 @@
   }
 
   .open {
-    width: 30vw;
+    width: 45vw;
     padding-right: 20px;
   }
 

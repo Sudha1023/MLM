@@ -1,5 +1,5 @@
 gsap.from(".shop_imgdiv",{
-    scrollTrigger:".shop_imgdiv",
+    scrollTrigger:".shop_imgdiv p",
     opacity: 0,
     duration: 1,
     y: 200,
