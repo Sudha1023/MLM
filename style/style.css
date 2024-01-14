@@ -80,7 +80,7 @@
 
 .popular_products_innerdiv {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 2rem;
   margin: 0 auto;
 }
@@ -347,6 +347,19 @@
   .bgblue {
     display: none;
   }
+
+  .claim_rewards_section button {
+    padding: 10px 9px;
+  }
+
+  .octagon {
+    height: 250px;
+    width: 250px;
+  }
+
+  .popular_products_2ndinnerdiv img {
+    width: 250px;
+}
 }
 
 @media screen and (max-width: 468px) {

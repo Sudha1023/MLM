@@ -167,12 +167,8 @@
     opacity: 1;
   }
 
-  .upper_header img {
-    width: 80%;
-  }
-
   .upper_header .img2 {
-    width: 87%;
+    display: none;
   }
 
   .upper_header button {
@@ -190,9 +186,6 @@
 }
 
 @media screen and (max-width: 468px) {
-  .upper_header .img2 {
-    display: none;
-  }
   .upper_header img {
     width: 50%;
   }
