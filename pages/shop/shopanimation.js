@@ -4,5 +4,5 @@ gsap.from(".shop_imgdiv",{
     duration: 1,
     y: 200,
     stagger: 0.3,
-    delay:.6,
+    delay:.2,
 })
