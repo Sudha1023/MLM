@@ -58,11 +58,19 @@
 
 .shopimg {
     width: 180px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .shopimg img {
   object-fit: cover;
   width: 100%;
+  transition: .2s ease-in-out;
+}
+
+.shopimg img:hover{
+    transform: scale(1.1);
 }
 
 .shop_imgdiv p {
