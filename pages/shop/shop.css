@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Poly&display=swap');
+@import url("../../style/default.css");
+@import url("../../style/headerfooter.css");
+
+.bottomheader {
+  border-bottom: 1px solid black;
+}
+
+.shop_section {
+  padding: 20px 10px;
+  gap: 4rem;
+}
+
+/* shop left */
+
+.shop_leftdiv,
+.shop_rightdiv {
+  padding: 10px 20px;
+}
+
+.shoplink_div {
+  padding: 20px 0;
+}
+
+.shop_leftdiv p {
+  font-size: 1.3rem;
+  padding: 5px 0;
+}
+
+.shop_leftdiv .activelink {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.shoplink_div a:hover p {
+  text-decoration: underline;
+}
+
+.shop_section .heading {
+  font-size: 1.6rem;
+  font-family: Hind;
+  font-weight: 400;
+  text-shadow: 5px 3px 3px #00000040;
+  border-bottom: 2px solid black;
+}
+
+/* shop right */
+.shop_rightdiv {
+  flex: 1;
+}
+
+.shop_rightdiv_imgsection {
+  padding: 40px 0;
+}
+
+.shop_imgdiv {
+  width: 200px;
+}
+
+.shopimg {
+    width: 180px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.shopimg img {
+  object-fit: cover;
+  width: 100%;
+  transition: .2s ease-in-out;
+}
+
+.shopimg img:hover{
+    transform: scale(1.1);
+}
+
+.shop_imgdiv p {
+  font-family: Poly;
+  font-size: 15px;
+  font-weight: 400;
+}

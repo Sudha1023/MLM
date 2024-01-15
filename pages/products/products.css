@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+
+@import url("../../style/default.css");
+@import url("../../style/headerfooter.css");
+
+
+.bottomheader {
+  border-bottom: 1px solid black;
+}
+
+
+.bgproduct{
+    background: #C4F4DEF2;
+}
+
+.product_section{
+    padding: 30px 10px;
+}
+
+.product_innerdiv{
+    width: 270px;
+}
+
+.product_innerdiv .product_img{
+    width: 265px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.product_img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.product_innerdiv p{
+    font-family: Inria Serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-shadow: 7px 3px 3px #0000004D;
+    text-decoration: underline;
+}

@@ -12,14 +12,16 @@
 }
 
 .octagon {
-  clip-path: polygon(30% 0%,
-      70% 0%,
-      100% 30%,
-      100% 70%,
-      70% 100%,
-      30% 100%,
-      0% 70%,
-      0% 30%);
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
   background-color: #ffecd6e5;
   height: 300px;
   width: 300px;
@@ -69,20 +71,16 @@
 }
 
 .popular_products_2ndinnerdiv h2 {
-
   font-family: Inria Serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 58px;
- 
-  
-
+  text-shadow: 5px 3px 4px #00000040;
 }
 
 .popular_products_innerdiv {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
-  /* width: 709px; */
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 2rem;
   margin: 0 auto;
 }
@@ -97,6 +95,7 @@
   font-family: Italianno;
   text-decoration: underline;
   line-height: 120px;
+  font-weight: 400; 
 }
 
 .joinus_section {
@@ -329,19 +328,11 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .popular_products h2 {
     font-size: 3.3rem;
   }
 
-  .popular_products_2ndinnerdiv img {
-    /* width: 35%; */
-  }
-
-
-
   .popular_products_innerdiv {
-
     width: auto;
   }
 
@@ -356,8 +347,20 @@
   .bgblue {
     display: none;
   }
-}
 
+  .claim_rewards_section button {
+    padding: 10px 9px;
+  }
+
+  .octagon {
+    height: 250px;
+    width: 250px;
+  }
+
+  .popular_products_2ndinnerdiv img {
+    width: 250px;
+}
+}
 
 @media screen and (max-width: 468px) {
   .joinus_content {

@@ -27,6 +27,10 @@
   justify-content: center;
 }
 
+.jend{
+  justify-content: flex-end;
+}
+
 .fwrap {
   flex-wrap: wrap;
 }
@@ -44,7 +48,7 @@
 }
 
 .fixed {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
