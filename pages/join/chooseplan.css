@@ -26,3 +26,78 @@
   border: 1px solid black;
   text-decoration: underline;
 }
+
+
+.reward_table {
+    padding:20px 10px;
+}
+
+.reward_table img{
+    width: 80%;
+}
+
+.choose_bottomdiv{
+    padding: 30px 10px;
+}
+
+
+.choose_bottomdiv p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buttondiv{
+    padding: 40px 0;
+    gap: 3rem;
+}
+
+
+.buttondiv p{
+    text-align: center;
+
+}
+
+.choose_bottomdiv .green_btn{
+    box-shadow: 8px 8px 4px 0px #00000059;
+    background: linear-gradient(0deg, #8CC2A8, #8CC2A8);
+    border: none;
+
+    border-bottom: 3px solid #000000;
+    padding: 10px 50px;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    border-radius: 30px;
+    outline: none;
+}
+
+.choose_bottomdiv .vip_btn{
+    box-shadow: 8px 8px 4px 0px #00000059;
+    background: linear-gradient(0deg, #7D78D3, #7D78D3);
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #000000;
+    padding: 10px 50px;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    border-radius: 30px;
+}
+
+.vip_btn img{
+    width: 30px;
+}
+
+
+.choose_bottomdiv .faq_btn{
+    width: 50%;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+}
+
+.w90{
+    width: 90%;
+
+}

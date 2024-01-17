@@ -1,6 +1,11 @@
 @import url("../../style/default.css");
 @import url("../../style/headerfooter.css");
 
+.bg{
+    background: #C4F4DEF2;
+
+}
+
 .join_section{
     background: #C4F4DEF2;
     padding: 20px 10px;
@@ -41,6 +46,7 @@
 }
 .main_section{
     padding: 30px 0;
+    transform: translateX(25px);
 }
 .transform{
     transform: translateX(-10px);
@@ -49,7 +55,7 @@
     transform: translateX(-20px);
 }
 .transform2{
-    transform: translateX(-60px);
+    transform: translateX(-50px);
 }
 .active_link{
     text-decoration: underline;
