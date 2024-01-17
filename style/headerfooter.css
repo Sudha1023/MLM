@@ -52,6 +52,12 @@
   display: none;
 }
 
+/* code for about section */
+
+.about_link:hover .about_section{
+  display: flex;
+}
+
 /* footer code start here */
 
 .footer_bg {
