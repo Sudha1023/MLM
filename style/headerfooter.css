@@ -52,10 +52,8 @@
   display: none;
 }
 
-/* code for about section */
-
-.about_link:hover .about_section{
-  display: flex;
+.bottomheader {
+  border-bottom: 1px solid black;
 }
 
 /* footer code start here */
