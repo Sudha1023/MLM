@@ -66,3 +66,35 @@
     font-size: 1.3rem;
     color: #000000;
 }
+
+/* refer friend */
+
+.referfriend{
+    padding: 30px 10px;
+}
+
+.referfriend_left ,.referfriend_right{
+    flex: .5;
+}
+
+.referfriend_left h2{
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    width: max-content;
+}
+
+.referfriend_para p{
+    font-size: 2rem;
+    padding: 30px 0;
+}
+
+.referfriend_para li{
+    text-decoration: dotted;
+    font-size: 1.5rem;
+    margin-left: 25px;
+}
+
+.referfriend_right img{
+    width: 80%;
+
+}
