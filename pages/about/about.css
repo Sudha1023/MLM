@@ -1,0 +1,8 @@
+@import url("../../style/default.css");
+@import url("../../style/headerfooter.css");
+
+.about_section{
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 500px;
+}   
