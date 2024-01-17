@@ -1,12 +1,12 @@
 @import url("../../style/default.css");
 @import url("../../style/headerfooter.css");
 
-.vip_section {
+.vip_section,.money_back {
   padding: 30px 10px;
   background-color: #f4f4fc;
 }
 
-.vip_section h2 {
+.vip_section h2 ,.money_back h2{
   color: #726eb4;
   text-align: center;
   font-size: 2rem;
@@ -15,10 +15,12 @@
 .vip_section_inner {
   padding: 50px 0;
   align-items: flex-start;
+  gap: 2rem;
 }
 
 .vip_cards {
   width: 340px;
+  height: min-content;
   background-color: white;
   padding: 20px 25px;
   border-radius: 3px;
@@ -38,14 +40,14 @@
     font-size: 1.5rem;
 }
 
-.vip_cards_text p {
+.vip_cards_text p, .money_back p{
   font-family: Karla;
   font-size: 1.2rem;
   color: #73719c;
 }
 
 
-.vip_cards_text .btn{
+.btn{
     width: 100%;
     background: #7D78D3;
     color: white;
@@ -55,9 +57,116 @@
     border: none;
 }
 
-@media screen and (min-width: 1180px) {
-    
-    .transform1{
-        transform: translateY(-120px);
-    }
+/* enroll section */
+
+.enroll_section{
+    padding: 40px 10px;
+    background: #D1CEF5;
+}
+
+.enroll_section h2{
+    color: white;
+    font-family: Kanit;
+font-size: 75px;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.enroll_inner{
+    padding: 40px 0;
+    gap: 5px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.enroll_inner_top ,.enroll_inner_bottom{
+   background:  #7D78D3;
+}
+
+.enroll_inner_top img{
+    width: 150px;
+}
+
+.enroll_inner_top h2{
+    font-family: Kanit;
+font-size: 60px;
+text-align: center;
+color: white;
+transform: translateY(-39px);
+}
+
+/* enroll bottom  */
+
+.enroll_inner_bottom{
+    padding: 20px 0;
+    background: radial-gradient(133% 55.48% at 57.3% 82.69%, rgba(0, 0, 0, 0.2) 17.74%, rgba(0, 0, 0, 0) 90.33%),
+linear-gradient(0deg, #7D78D3, #7D78D3);
+
+}
+
+.enroll_inner_bottom h2{
+    font-family: Kanit;
+    font-size: 2.3rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.whiteupperdiv{
+    padding: 20px 0;
+}
+
+.whitediv{
+    padding: 10px 5px;
+    width: 95%;
+    background-color: #F4F4FC;
+    border-radius: 5px;
+}
+
+.whitediv p{
+    color: #73719C;
+}
+
+.content p{
+    color: #FFFFFF;
+padding:20px 10px;
+    font-size: .8rem;
+}
+
+.content .btn{
+    background: #7E78F6;
+    width: 90%;
+}
+
+.btnp{
+    font-family: Karla;
+font-size: 16px;
+font-style: italic;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color:  #FFFFFF;
+
+}
+
+.faq_bottom{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* moneyback */
+
+.money_back img{
+    width: 300px;
+}
+
+.moneybackbtn{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
 }
