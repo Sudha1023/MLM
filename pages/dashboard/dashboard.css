@@ -1,0 +1,79 @@
+@import url("../../style/default.css");
+@import url("../../style/headerfooter.css");
+
+.top_div{
+    background-color: #BAFBD7;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.level img{
+   width: 40px;
+}
+
+.dashboard_inner_left{
+    padding: 20px 30px;
+    background-color: #BAFBD7;
+    justify-content: space-between;
+}
+
+.dashboard_inner_left p{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #767676;
+}
+
+.dashboard_inner_left .active_link{
+    color: black;
+    font-weight: bold;
+}
+
+.dashboard_inner_left a:hover p{
+    text-decoration: underline;
+}
+
+.logout{
+    margin-top: auto;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px ;
+    background: #2237228F;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 5px #00000040;
+}
+
+.logout span{
+    font-size: 1.5rem;
+}
+
+/* right */
+
+.dashboard_inner_right{
+    padding: 40px 10px;
+    flex: 1;
+}
+
+/* crystalcount code */
+
+.crystal_table{
+    padding: 60px 0;
+}
+
+.crystal_table img{
+    width: 60%;
+}
+.underline{
+    text-decoration: underline;
+}
+.crystal_table p{
+    padding: 10px 0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;    
+}
+
+/* code for commision */
+
