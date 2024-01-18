@@ -1,0 +1,72 @@
+@import url("../../style/default.css");
+@import url("../../style/headerfooter.css");
+
+.gold_section{
+    background-image: url("../../images/Rectangle\ 95.png");
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+     box-shadow: 0px 25px 4px 0px #0000004D; 
+     margin-bottom: 26px;
+}
+
+.gold_section h2{
+    border-top: 2px solid white;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
+
+/* images section */
+.images_upper_div{
+    padding: 10px;
+    background-color: #BCE9D4;
+}
+
+.images_upper_div .heading{
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.all_images{
+    padding: 20px 10px;
+    gap: 4rem;
+    max-width: 1000px;
+}
+
+.images_cards{
+    width: 180px;
+    text-align: center;
+}
+
+.images_cards h2{
+    font-size: 1.1rem;  
+}
+
+.images_cards h2 span{
+    color:#712AE4;
+}
+
+.images_cards button{
+    outline: none;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.images_cards button:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.endiv{
+    padding-bottom: 80px;
+}

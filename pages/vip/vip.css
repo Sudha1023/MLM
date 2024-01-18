@@ -29,7 +29,7 @@
 }
 
 .vip_cards_img img {
-  width: 160px;
+  width: 120px;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
@@ -43,13 +43,13 @@
 }
 
 .vip_cards_text h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .vip_cards_text p,
 .money_back p {
   font-family: Karla;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #73719c;
 }
 
