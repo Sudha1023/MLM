@@ -22,6 +22,22 @@
     background-image: url("../../images/glass_kundan.png");
 }
 
+.perl_section{
+    background-image: url("../../images/perl_section.png");
+}
+
+.silver_section{
+    background-image: url("../../images/silver_section.png");
+}
+
+.gems_section{
+    background-image: url("../../images/gems_section.png");
+}
+
+.platinum_section{
+    background-image: url("../../images/platinum_section.png");
+}
+
 /* code end */
 
 .gold_section h2 {

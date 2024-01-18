@@ -13,7 +13,7 @@ var observer = new IntersectionObserver(entries => {
 
              var aa = gsap.to(entry.target.children,{
                 opacity: 1,
-                duration: 1,
+                duration: .6,
                 y: 0,
                 stagger: 0.3,
                 delay:.2,
