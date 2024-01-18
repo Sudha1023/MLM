@@ -6,4 +6,3 @@ gsap.from(".product_img",{
     stagger:.2,
     delay:.2,
 })
-
