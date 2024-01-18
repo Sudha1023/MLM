@@ -1,8 +1,33 @@
 @import url("../../style/default.css");
 @import url("../../style/headerfooter.css");
 
-.about_section{
-    justify-content: space-between;
-    padding: 20px 10px;
-    height: 500px;
-}   
+.about_section {
+  justify-content: space-between;
+  padding: 20px 10px;
+  height: 500px;
+  align-items: flex-start;
+}
+
+.left,
+.center,
+.right {
+  flex: 0.4;
+}
+
+.about_section h2 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid black;
+  width: max-content;
+  font-family: Italianno;
+  text-shadow: 5px 3px 4px #00000040;
+  margin-bottom: 40px;
+}
+
+.about_section p {
+  padding: 10px 0;
+  font-size: 1.3rem;
+}
+
+.center_imgdiv img {
+  width: 80%;
+}

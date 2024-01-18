@@ -31,6 +31,10 @@
   justify-content: flex-end;
 }
 
+.jcenter{
+  justify-content: center;
+}
+
 .fwrap {
   flex-wrap: wrap;
 }

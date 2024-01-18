@@ -2,10 +2,6 @@
 @import url("../../style/default.css");
 @import url("../../style/headerfooter.css");
 
-.bottomheader {
-  border-bottom: 1px solid black;
-}
-
 .shop_section {
   padding: 20px 10px;
   gap: 4rem;
