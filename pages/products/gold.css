@@ -1,72 +1,104 @@
 @import url("../../style/default.css");
 @import url("../../style/headerfooter.css");
 
-.gold_section{
-    background-image: url("../../images/Rectangle\ 95.png");
-    height: 450px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-     box-shadow: 0px 25px 4px 0px #0000004D; 
-     margin-bottom: 26px;
+/* product header img section */
+.gold_section {
+  background-image: url("../../images/Rectangle\ 95.png");
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0px 25px 4px 0px #0000004d;
+  margin-bottom: 26px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.gold_section h2{
-    border-top: 2px solid white;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 1.3rem;
-    text-align: center;
-    color: white;
+.diamond {
+  background-image: url("../../images/dimondsection.png");
+}
+
+.glass_kundan{
+    background-image: url("../../images/glass_kundan.png");
+}
+
+.perl_section{
+    background-image: url("../../images/perl_section.png");
+}
+
+.silver_section{
+    background-image: url("../../images/silver_section.png");
+}
+
+.gems_section{
+    background-image: url("../../images/gems_section.png");
+}
+
+.platinum_section{
+    background-image: url("../../images/platinum_section.png");
+}
+
+/* code end */
+
+.gold_section h2 {
+  border-top: 2px solid white;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
 }
 
 /* images section */
-.images_upper_div{
-    padding: 10px;
-    background-color: #BCE9D4;
+.images_upper_div {
+  padding: 10px;
+  background-color: #bce9d4;
 }
 
-.images_upper_div .heading{
-    color: black;
-    border-bottom: 1px solid black;
-    padding: 10px 0;
-    width: 100%;
-    margin-bottom: 20px;
+.images_upper_div .heading {
+  color: black;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.all_images{
-    padding: 20px 10px;
-    gap: 4rem;
-    max-width: 1000px;
+.all_images {
+  padding: 20px 10px;
+  gap: 4rem;
+  max-width: 1000px;
 }
 
-.images_cards{
-    width: 180px;
-    text-align: center;
+.images_cards {
+  width: 180px;
+  text-align: center;
+  opacity: 0;
 }
 
-.images_cards h2{
-    font-size: 1.1rem;  
+.images_cards h2 {
+  font-size: 1rem;
 }
 
-.images_cards h2 span{
-    color:#712AE4;
+.images_cards h2 span {
+  color: #712ae4;
 }
 
-.images_cards button{
-    outline: none;
-    border: 1px solid black;
-    background-color: black;
-    color: white;
-    font-size: 1rem;
-    padding: 10px 20px;
+.images_cards button {
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  transition: 0.3s ease-in;
 }
 
-.images_cards button:hover{
-    background-color: transparent;
-    color: black;
+.images_cards button:hover {
+  background-color: transparent;
+  color: black;
 }
 
-.endiv{
-    padding-bottom: 80px;
+.endiv {
+  padding-bottom: 80px;
 }
