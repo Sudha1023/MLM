@@ -2,7 +2,7 @@
 let options ={
     root: null,
     rootMargin: "0px",
-    threshold: 0.5
+    threshold: 0.1
 }
 
 const imgdiv = document.querySelectorAll(".all_images");
