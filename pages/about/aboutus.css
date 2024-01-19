@@ -1,0 +1,7 @@
+@import url("../../style/default.css");
+@import url("../../style/headerfooter.css");
+
+.aboutus_header{
+    padding: 30px 10px;
+    background-color: #BCE9D4;
+}

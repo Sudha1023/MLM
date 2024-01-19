@@ -14,4 +14,3 @@ if (menuBar) {
     sidebar2.classList.toggle("opensidebar2");
   });
 }
-console.log("hi")
