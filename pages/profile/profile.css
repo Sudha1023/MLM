@@ -44,6 +44,43 @@
   font-size: 1.3rem;
 }
 
+.profile_dimond_img {
+    border-left: 4px solid black;
+    width: 20px;
+}
+.profile_dimond_img p{
+    font-size: 1rem;
+    color: white;
+    transform: translateX(-18px);
+}
+
+.bottomdiv p{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.transform10{
+    transform: translateX(-10px);
+}
+
+.whitediv{
+    background-color: white;
+}
+
+.line {
+    height: 5px;
+    width: 220px;
+    background-color: black;
+    border-radius: 21px;
+    margin: 0 auto;
+}
+
+.line1{
+    width: 180px ;
+    margin-top: 2px;
+}
+
 /* dropdown styles */
 
 .dropdown_div {
@@ -164,7 +201,7 @@
   border-bottom: none;
 }
 
-.profile_right_bottom button {
+.pbtn {
   padding: 5px 10px;
   color: #f46d6d;
   background-color: white;
@@ -179,6 +216,8 @@
 .profile_level img {
   width: 60%;
 }
+
+
 
 @media screen and (max-width: 768px) {
   .profile_level img {
