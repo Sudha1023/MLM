@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap");
+@import url("../../style/default.css");
+@import url("../../style/headerfooter.css");
+
+.bg {
+  background-color: #55a26f;
+}
+
+.profile_header {
+  padding: 40px 10px;
+  gap: 3rem;
+}
+
+.profile_left_div {
+    max-width: 180px;
+}
+
+.profile_left_div img {
+  width: 160px;
+}
+
+.profile_left_div h2 {
+  font-family: "Josefin Slab";
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.profile_left_div button {
+  background: #7d78d3;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 8px;
+}
+
+.profile_left_div button span {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.dropdown {
+  height: 0;
+  overflow: hidden;
+}
+
+.dropdown h2 {
+  white-space: nowrap;
+}
+
+.profile_right {
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.profile_right h2 {
+  font-family: Josefin Slab;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.profile_right_crystals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.profile_right_crystals p {
+  font-size: 1.3rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.profile_right_crystals_imgdiv {
+  padding: 10px 40px;
+  border: 4px solid #6d6d6d;
+}
+
+.profile_right_crystals_imgdiv img {
+  width: 120px;
+}
+
+.profile_right_crystals_imgdiv:nth-child(1),
+.profile_right_crystals_imgdiv:nth-child(3) {
+  border: none;
+}
+
+.profile_right_crystals_imgdiv:nth-child(2) {
+  border-top: none;
+  border-bottom: none;
+}
+
+.profile_right_crystals_imgdiv:nth-child(4),
+.profile_right_crystals_imgdiv:nth-child(6) {
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.profile_right_crystals_imgdiv:nth-child(5) {
+  border-bottom: none;
+}
+
+.profile_right_bottom button{
+    padding: 5px 10px;
+    color: #F46D6D;
+    background-color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.profile_level {
+  padding: 40px 10px;
+}
+.profile_level img {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .profile_level img {
+    width: 100%;
+  }
+  .profile_right_crystals p {
+    font-size: 1rem;
+  }
+  .profile_right_crystals_imgdiv {
+    padding: 10px 20px;
+  }
+}
