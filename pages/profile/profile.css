@@ -81,6 +81,8 @@
     margin-top: 2px;
 }
 
+
+
 /* dropdown styles */
 
 .dropdown_div {
@@ -125,6 +127,10 @@
 .testimonial_rating i {
   color: #ffc978;
   font-size: 1.3rem;
+}
+
+.testimonial_rating .gray{
+    color: #cbcac8;
 }
 
 .dropdown .fdbtn {
