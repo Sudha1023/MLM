@@ -160,10 +160,11 @@
   color: #ffffff;
 }
 
-.faq_bottom {
+.faq_bottom{
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 /* moneyback */
 
@@ -298,6 +299,10 @@
   font-size: 1.3rem;
   color: white;
   background-color: black;
+}
+
+.faq_btn a{
+  color: white;
 }
 
 .w90 {
