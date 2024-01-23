@@ -1,0 +1,86 @@
+@import url("../../style/default.css");
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(153, 191, 252, 0.4459) 22.56%,
+    rgba(188, 231, 208, 0.6279) 82.48%
+  );
+}
+
+.line {
+  border-top: 2px solid black;
+}
+
+.adminheader {
+  padding: 10px 20px;
+}
+
+.adminheader .logo img {
+  width: 170px;
+}
+
+.adminlinks span {
+  font-size: 5rem;
+}
+
+.adminlinks img {
+  width: 70px;
+}
+
+.adminlink_h2 h2 {
+  font-size: 1.2rem;
+  font-family: Inknut Antiqua;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.adminlink_h2 span {
+  font-size: 1.7rem;
+}
+
+.dashboard_navigation {
+  padding: 20px;
+  gap: 3rem;
+}
+
+.dashboard_heading {
+  background: linear-gradient(
+    0deg,
+    rgba(139, 127, 210, 0.5),
+    rgba(139, 127, 210, 0.5)
+  );
+  padding: 10px 15px;
+  font-size: 1.3rem;
+  text-align: center;
+  box-shadow: 0px 5px 4px 4px #00000066;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 2px 2px 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.bottom_dotted .center {
+  border-bottom: 10px dashed #8b7fd280;
+  position: relative;
+}
+
+.left,
+.right {
+  height: 30px;
+  width: 30px;
+  background: #8b7fd2;
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.left {
+  left: -8px;
+  top: -10px;
+}
+
+.right {
+  right: -8px;
+  top: -10px;
+}
