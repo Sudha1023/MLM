@@ -1,13 +1,12 @@
 @import url("../../style/default.css");
 @import url("../../style/headerfooter.css");
 
-
-.dashboard_section{
-    height: 100vh;
+.dashboard_section {
+  height: 100vh;
 }
 
-.dashboard_inner_section{
-    height: 100%;   
+.dashboard_inner_section {
+  height: 100%;
 }
 
 .top_div {
@@ -152,3 +151,60 @@ td {
 }
 
 /* refferal section end */
+
+/* slab section */
+
+.dashboard_slab_img {
+  padding: 20px;
+  height: 80%;
+}
+
+.dashboard_slab_left {
+  padding: 0 10px;
+}
+
+.dashboard_slab_left h2 {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  font-family: Inknut Antiqua;
+  font-weight: 400;
+}
+
+.dashboard_slab_right {
+  flex: 1;
+  padding: 10px 20px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.slab_innerDiv {
+    transform: translateY(45px);
+}
+
+.slab_innerDiv img {
+    width: 50px;
+}
+
+.slab_innerDiv h2{
+    font-family: Inknut Antiqua;
+    font-size: 25px;
+    font-weight: 400;    
+}
+
+.graph{
+    width: 60px;
+    background: #1DB977B2;
+    height: 150px;
+}
+
+.silvergraph{
+    height: 256px;
+    background: #1DB97733;
+}
+
+.goldgraph{
+    background: #1DB97733;
+    height: 450px;
+}
