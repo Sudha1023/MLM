@@ -1,128 +1,154 @@
 @import url("../../style/default.css");
 @import url("../../style/headerfooter.css");
 
-.top_div{
-    background-color: #BAFBD7;
-    padding: 10px 20px;
-    justify-content: space-between;
+
+.dashboard_section{
+    height: 100vh;
 }
 
-.level img{
-   width: 40px;
+.dashboard_inner_section{
+    height: 100%;   
 }
 
-.dashboard_inner_left{
-    padding: 20px 30px;
-    background-color: #BAFBD7;
-    justify-content: space-between;
+.top_div {
+  background-color: #bafbd7;
+  padding: 10px 20px;
+  justify-content: space-between;
 }
 
-.dashboard_inner_left p{
-    padding: 10px 0;
-    font-size: 1.2rem;
-    color: #767676;
+.level img {
+  width: 40px;
 }
 
-.dashboard_inner_left .active_link{
-    color: black;
-    font-weight: bold;
+.dashboard_inner_left {
+  padding: 20px 30px;
+  background-color: #bafbd7;
+  justify-content: space-between;
 }
 
-.dashboard_inner_left a:hover p{
-    text-decoration: underline;
+.dashboard_inner_left p {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  color: #767676;
 }
 
-.logout{
-    margin-top: auto;
-    padding: 10px 20px;
-    width: 100%;
-    outline: none;
-    border: none;
-    border-radius: 20px ;
-    background: #2237228F;
-    color: white;
-    font-size: 1.5rem;
-    text-shadow: 5px 5px 5px #00000040;
+.dashboard_inner_left .active_link {
+  color: black;
+  font-weight: bold;
 }
 
-.logout span{
-    font-size: 1.5rem;
+.dashboard_inner_left a:hover p {
+  text-decoration: underline;
+}
+
+.logout {
+  margin-top: auto;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background: #2237228f;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 5px 5px 5px #00000040;
+}
+
+.logout span {
+  font-size: 1.5rem;
 }
 
 /* right */
 
-.dashboard_inner_right{
-    padding: 40px 10px;
-    flex: 1;
+.dashboard_inner_right {
+  padding: 40px 10px;
+  flex: 1;
 }
 
 /* crystalcount code */
 
-.crystal_table{
-    padding: 60px 0;
+.table_crystals table {
+  background: #f5f5f5b0;
 }
 
-.crystal_table img{
-    width: 60%;
+.table_crystals table td {
+  padding: 20px 10px;
+  font-size: 1.3rem;
 }
-.underline{
-    text-decoration: underline;
+
+.underline {
+  text-decoration: underline;
 }
-.crystal_table p{
-    padding: 10px 0;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: italic;    
+.crystal_table p {
+  padding: 10px 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: italic;
 }
 
 /* code for commision */
 
-
-
 table {
-    border-collapse: collapse;
-    text-align: center;
-    background: #BCE7D0B0;
+  border-collapse: collapse;
+  text-align: center;
+  background: #bce7d0b0;
+}
 
-  }
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
 
-  th,td{
-    border:1px solid black;
-    padding:10px;
-  }
-  .upper_logo img{
-    width: 50px;
-  }
-  .upper_logo h2{
-    font-size: 1.1rem;
+/* refferal section */
 
-  }
-.upper_logo span{
-    padding: 3px 15px;
-    border-radius: 10px;
-    background: #BCE7D0B0;
-    border: 1px solid black;
+.upper_logo img {
+  width: 50px;
 }
-.logo_div{
-   width: 700px;
-    padding: 20px 10px;
-    margin: 0 auto;
+.upper_logo h2 {
+  font-size: 1.1rem;
 }
-.logo_innerdiv img{
-    width: 50px;
+.upper_logo span {
+  padding: 3px 15px;
+  border-radius: 10px;
+  background: #bce7d0b0;
+  border: 1px solid black;
+}
+.logo_div {
+  width: 700px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+.logo_innerdiv img {
+  width: 50px;
+}
+.line_div {
+  height: 50px;
+  width: 3px;
+  background: black;
+}
+.logo_container {
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.straight_line {
+  height: 3px;
+  width: 77%;
+  background: black;
+}
 
+.s70 {
+  width: 51%;
 }
-.line_div{
-    height: 50px;
-    width: 3px;
-    background: black;
+
+.w16 {
+  width: 160px;
 }
-.logo_container{
-    justify-content: space-between;
-    width: 100%;
+
+.inside_img_div {
+  align-items: flex-start;
+  justify-content: space-between;
 }
-.straight_line{
-    height: 3px;
-    width: 93%;
-    background: black;
-}
+
+/* refferal section end */
