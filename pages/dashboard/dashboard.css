@@ -172,7 +172,7 @@ td {
 
 .dashboard_slab_right {
   flex: 1;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
   align-items: flex-end;
