@@ -15,25 +15,50 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <link rel="stylesheet" href="./admindashboard.css" />
-    <title>Admin Profile</title>
+    <title>Admin Dashboard</title>
   </head>
   <body>
     <header class="adminheader flex_center jbetween fixed">
       <div class="logo">
-        <img src="../../images/logopng.png" alt="" />
+        <a href="./admindashboard.html">
+          <img src="../../images/logopng.png" alt="" />
+        </a>
       </div>
       <div class="adminlinks flex_center gap">
- 
-            <img src="../../images/avatarprofile.png" alt="">
-            <a href="./adminprofile.html">
-                <div class="adminlink_h2 flex_center gap">
-                    <h2>Admin</h2>
-                    <span class="material-symbols-outlined">
-                        keyboard_arrow_down
-                    </span>
-                </div>
-            </a>
+        <img src="../../images/avatarprofile.png" alt="" />
+        <a href="./adminprofile.html">
+          <div class="adminlink_h2 flex_center gap">
+            <h2>Admin</h2>
+            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+          </div>
+        </a>
       </div>
     </header>
+    <div class="line"></div>
+    <div class="dashboard_navigation fixed flex flex_col">
+      <div class="dashboard_heading">DASHBOARD</div>
+      <div class="dashboard_navigation_link flex_center_centerAll gap1">
+        <a href="./adminproduct.html">
+          <h2>Product</h2>
+        </a>
+        <a href="./admincustomer.html">
+          <h2>View Customer</h2>
+        </a>
+        <a href="./adminorder.html">
+          <h2>View Orders</h2>
+        </a>
+        <a href="./adminviewproduct.html">
+          <h2>View Products</h2>
+        </a>
+      </div>
+
+      <div class="bottom_dotted">
+        <div class="center">
+          <div class="left"></div>
+
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
