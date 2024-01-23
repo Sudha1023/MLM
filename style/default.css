@@ -27,12 +27,21 @@
   justify-content: center;
 }
 
+.align_end{
+  align-items: flex-end;
+
+}
+
 .jend{
   justify-content: flex-end;
 }
 
 .jcenter{
   justify-content: center;
+}
+
+.jbetween{
+  justify-content: space-between;
 }
 
 .fwrap {

@@ -180,31 +180,75 @@ td {
 }
 
 .slab_innerDiv {
-    transform: translateY(45px);
+  transform: translateY(45px);
 }
 
 .slab_innerDiv img {
-    width: 50px;
+  width: 50px;
 }
 
-.slab_innerDiv h2{
-    font-family: Inknut Antiqua;
-    font-size: 25px;
-    font-weight: 400;    
+.slab_innerDiv h2 {
+  font-family: Inknut Antiqua;
+  font-size: 25px;
+  font-weight: 400;
 }
 
-.graph{
-    width: 60px;
-    background: #1DB977B2;
-    height: 150px;
+.graph {
+  width: 60px;
+  background: #1db977b2;
+  height: 150px;
 }
 
-.silvergraph{
-    height: 256px;
-    background: #1DB97733;
+.silvergraph {
+  height: 256px;
+  background: #1db97733;
 }
 
-.goldgraph{
-    background: #1DB97733;
-    height: 450px;
+.goldgraph {
+  background: #1db97733;
+  height: 450px;
+}
+
+/* profile section */
+
+.profile_dd {
+  background: #f4f4fc;
+}
+
+.dashboard_profile_section {
+  padding: 20px 30px;
+  gap: 2rem;
+}
+
+
+.dashboard_profile_section span {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 160px;
+}
+
+.input_div label {
+  font-size: 1.3rem;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.input_div input {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  width: 100%;
+  outline: none;
+}
+
+.mb {
+  margin-bottom: 5px;
+}
+
+.w100{
+    width: 100%;
 }
