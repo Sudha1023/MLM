@@ -335,3 +335,47 @@ td .action{
 .buttons .cancelbtn{
   background: #805E5E;
 }
+
+/* admin dashboard section */
+
+.admin_dashboard_section{
+  padding: 20px 10px;
+}
+
+.admin_dashboard_top{
+  padding: 10px 0;
+}
+
+.admin_dashboard_top_left{
+  background: linear-gradient(180deg, #B452F1 0%, rgba(217, 12, 147, 0.37) 97.5%);
+  border-radius: 10px;
+  padding: 10px;
+  flex: .3;
+}
+
+.text_div{
+  padding: 30px 0 0 10px;
+}
+
+.admin_dashboard_top_left h2{
+  font-size: 1.3rem;
+  font-family: Inter;
+color: white;
+}
+
+.admin_dashboard_top_left p{
+  font-family: Inter;
+font-size: 1rem;
+width: 70%;
+color: white;
+}
+
+.admin_dashboard_top_left img{
+  object-fit: contain;
+  aspect-ratio: 3/2;
+  width: 130px;
+}
+
+.admin_dashboard_top_left img:nth-child(2){
+  width: 250px;
+}
