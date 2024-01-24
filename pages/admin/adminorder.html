@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css"
+      integrity="sha512-dTsohxprpcruDm4sjU92K0/Gf1nTKVVskNHLOGMqxmokBSkfOAyCzYSB6+5Z9UlDafFRpy5xLhvpkOImeFbX6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./admindashboard.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <header class="adminheader flex_center jbetween fixed">
+      <div class="logo">
+        <a href="./admindashboard.html">
+          <img src="../../images/logopng.png" alt="" />
+        </a>
+      </div>
+      <div class="adminlinks flex_center gap">
+        <a href="./adminnotification.html">
+            <span class="material-symbols-outlined"> notifications </span>
+        </a>
+        <img src="../../images/avatarprofile.png" alt="" />
+        <a href="./adminprofile.html">
+          <div class="adminlink_h2 flex_center gap">
+            <h2>Admin</h2>
+            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+          </div>
+        </a>
+      </div>
+    </header>
+    <div class="line"></div>
+    <div class="dashboard_navigation fixed flex flex_col">
+      <div class="dashboard_heading">DASHBOARD</div>
+      <div class="dashboard_navigation_link flex_center_centerAll gap1">
+        <a href="./adminproduct.html">
+          <h2>Product</h2>
+        </a>
+        <a href="./admincustomer.html">
+          <h2>View Customer</h2>
+        </a>
+        <a href="#">
+          <h2 class="activepage">View Orders</h2>
+        </a>
+        <a href="./adminviewproduct.html">
+          <h2>View Products</h2>
+        </a>
+      </div>
+
+      <div class="bottom_dotted">
+        <div class="center">
+          <div class="left"></div>
+
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="admindashboard_container fixed">
+      <table>
+        <thead>
+          <tr>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Order Id</th>
+            <th>Product Price</th>
+            <th>Address</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>C15</td>
+            <td>Sudha</td>
+            <td>544</td>
+            <td>4111</td>
+            <td>Jammu</td>
+            <td class="green">Delivered</td>
+            <td class="actiontd">
+              <span class="material-symbols-outlined action"> more_vert </span>
+              <div class="actionhover">
+                <p>Transaction ID</p>
+                <p>Mode of Payment</p>
+                <p>Reward</p>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>C15</td>
+            <td>Sudha</td>
+
+            <td>544</td>
+            <td>4111</td>
+            <td>Jammu</td>
+            <td class="place">Placed</td>
+            <td class="actiontd">
+              <span class="material-symbols-outlined action"> more_vert </span>
+              <div class="actionhover">
+                <p>Transaction ID</p>
+                <p>Mode of Payment</p>
+                <p>Reward</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>C15</td>
+            <td>Sudha</td>
+            <td>544</td>
+            <td>4111</td>
+            <td>Jammu</td>
+            <td class="ship">Shipped</td>
+            <td class="actiontd">
+              <span class="material-symbols-outlined action"> more_vert </span>
+              <div class="actionhover">
+                <p>Transaction ID</p>
+                <p>Mode of Payment</p>
+                <p>Reward</p>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>C15</td>
+            <td>Sudha</td>
+            <td>544</td>
+            <td>4111</td>
+            <td>new delhi</td>
+            <td class="return">Return</td>
+            <td class="actiontd">
+              <span class="material-symbols-outlined action"> more_vert </span>
+              <div class="actionhover">
+                <p>Transaction ID</p>
+                <p>Mode of Payment</p>
+                <p>Reward</p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="pagination flex_center jend">
+        <div class="flex_center_centerAll arrowbg">
+          <span class="material-symbols-outlined"> arrow_back_ios </span>
+        </div>
+        <div class="pagination_list flex_center">
+          <h2>1</h2>
+          <h2>2</h2>
+          <h2>3</h2>
+        </div>
+
+        <div class="flex_center_centerAll arrowbg">
+          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
