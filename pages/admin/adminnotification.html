@@ -23,8 +23,10 @@
         <img src="../../images/logopng.png" alt="" />
       </div>
       <div class="adminlinks flex_center gap">
-        <a href="#">
-          <span class="material-symbols-outlined"> notifications </span>
+        <a href="./admindashboard.html">
+          <span class="material-symbols-outlined">
+            home
+            </span>
         </a>
         <img src="../../images/avatarprofile.png" alt="" />
         <a href="./adminprofile.html">
@@ -37,29 +39,35 @@
     </header>
     <div class="line"></div>
     <div class="dashboard_navigation fixed flex flex_col">
-      <div class="dashboard_heading">DASHBOARD</div>
-      <div class="dashboard_navigation_link flex_center_centerAll gap1">
-        <a href="./adminproduct.html">
-          <h2>Product</h2>
-        </a>
-        <a href="./admincustomer.html">
-          <h2>View Customer</h2>
-        </a>
-        <a href="./adminorder.html">
-          <h2>View Orders</h2>
-        </a>
-        <a href="./adminviewproduct.html">
-          <h2>View Products</h2>
-        </a>
-      </div>
+      <div class="dashboard_heading">Notifications</div>
 
-      <div class="bottom_dotted">
-        <div class="center">
-          <div class="left"></div>
-
-          <div class="right"></div>
+      <div class="notificationDiv flex flex_col ">
+        <div class="notification_container flex_center jbetween">
+          <h2>Product with order id P012 has been delievered seccessfully.</h2>
+          <div class="actiontd">
+            <span class="material-symbols-outlined action"> more_vert </span>
+            <div class="actionhover">
+              <p>Mark as read</p>
+              <p>Mark as Unread</p>
+              <p>Delete</p>
+            </div>
+          </div>
         </div>
+
+        <div class="notification_container visited flex_center jbetween">
+          <h2>Product with order id P012 has been delievered seccessfully.</h2>
+          <div class="actiontd">
+            <span class="material-symbols-outlined action"> more_vert </span>
+            <div class="actionhover">
+              <p>Mark as read</p>
+              <p>Mark as Unread</p>
+              <p>Delete</p>
+            </div>
+          </div>
+        </div>
+
       </div>
+
     </div>
   </body>
 </html>

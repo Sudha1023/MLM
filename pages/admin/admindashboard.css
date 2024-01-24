@@ -187,6 +187,7 @@ td .action{
 
 .actiontd{
   position: relative;
+  cursor: pointer;
 }
 
 .actiontd:hover .actionhover{
@@ -226,4 +227,99 @@ td .action{
 
 .w100{
   width: 100%;
+}
+
+/* notification section */
+
+.notificationDiv{
+  gap: 1.3rem;
+}
+
+.notification_container {
+  border-radius: 4px;
+  padding: 15px 10px;
+  background:#53BCBC80;  
+  border: 1px solid black;
+
+}
+
+.notification_container h2 {
+  font-size: 1.2rem;
+  font-family: Inter;
+  font-weight: lighter;
+}
+
+.visited{
+  background: #B38ACC99;
+}
+
+/* admin profile */
+
+.dashboard_profile_section{
+  align-items: flex-start;
+  gap: 3rem;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.inputs_container_right{
+  gap: 2rem;
+}
+
+.profile_dd {
+  background: #f4f4fc;
+}
+
+.dashboard_profile_section span {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 160px;
+}
+
+.input_div label {
+  font-size: 1.3rem;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.input_div input {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  width: 100%;
+  outline: none;
+}
+
+.mb {
+  margin-bottom: 5px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.buttons {
+  width: 50%;
+}
+
+.buttons button{
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  width: max-content;
+  outline: none;
+  cursor: pointer;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  color: white;
+  background: #7968DD;
+}
+
+.buttons .cancelbtn{
+  background: #805E5E;
 }
