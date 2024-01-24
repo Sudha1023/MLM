@@ -149,10 +149,28 @@ button {
   margin-bottom: 40px;
 }
 
+.relative {
+  position: relative;
+}
+
 .del_btn{
   background-color: #dd6868;
   width: min-content;
   margin: 0 auto;
+}
+
+.buttons_view {
+  padding: 10px 20px;
+  align-items: flex-end;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+.buttons_view button{
+  width: 100%; 
+  white-space: nowrap; 
 }
 
 @media screen and (max-width: 768px) {
