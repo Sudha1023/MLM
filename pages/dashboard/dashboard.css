@@ -2,7 +2,7 @@
 @import url("../../style/headerfooter.css");
 
 .dashboard_section {
-  height: 100vh;
+  min-height: fit-content;
 }
 
 .dashboard_inner_section {
@@ -156,7 +156,7 @@ td {
 
 .dashboard_slab_img {
   padding: 20px;
-  height: 80%;
+  height: 97%;
 }
 
 .dashboard_slab_left {
@@ -206,7 +206,7 @@ td {
 
 .goldgraph {
   background: #1db97733;
-  height: 450px;
+  height: 370px;
 }
 
 /* profile section */
